@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "bingo-bango",
+	"version": "${version}",
+	"name": "Bingo Bango",
+	"description": "A bingo mod for minecraft #yea",
+	"authors": [
+		"z3roco01"
+	],
+	"contact": {
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/bingo-bango/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"z3roco01.bingo.BingoBango"
+		],
+		"client": [
+			"z3roco01.bingo.client.BingoBangoClient"
+		],
+		"fabric-datagen": [
+          "z3roco01.bingo.client.data.BingoBangoDataGenerator"
+		]
+	},
+	"mixins": [
+		"bingo-bango.mixins.json",
+		{
+			"config": "bingo-bango.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

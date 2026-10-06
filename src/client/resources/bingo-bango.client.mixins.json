@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "z3roco01.bingo.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
