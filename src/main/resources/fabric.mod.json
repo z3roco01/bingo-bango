@@ -10,7 +10,7 @@
 	"contact": {
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/bingo-bango/icon.png",
+	"icon": "assets/bingo_bango/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
